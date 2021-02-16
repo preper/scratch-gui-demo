@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 import logo from '../asset/logo.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const count = useSelector(state => state.count)
+  const dispatch = useDispatch()
 
   return (
     <div className="App">
@@ -11,7 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
-          <button onClick={() => setCount((count) => count + 1)}>
+          <button onClick={() => dispatch({ type: 'INCREMENT' })}>
             count is: {count}
           </button>
         </p>

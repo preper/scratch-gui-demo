@@ -1,6 +1,6 @@
 {
   "name": "scratch-gui-demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A repo for learn scratch source code.",
   "scripts": {
     "dev": "vite",
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/preper/scratch-gui-demo#readme",
   "dependencies": {
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-react-refresh": "^1.1.0",
