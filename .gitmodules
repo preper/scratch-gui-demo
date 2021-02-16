@@ -1,0 +1,6 @@
+[submodule "lib/scratch-vm"]
+	path = lib/scratch-vm
+	url = git@github.com:LLK/scratch-vm.git
+[submodule "lib/scratch-storage"]
+	path = lib/scratch-storage
+	url = git@github.com:LLK/scratch-storage.git
