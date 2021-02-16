@@ -1,0 +1,28 @@
+{
+  "name": "scratch-gui-demo",
+  "version": "0.0.1",
+  "description": "A repo for learn scratch source code.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preper/scratch-gui-demo.git"
+  },
+  "author": "preper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/preper/scratch-gui-demo/issues"
+  },
+  "homepage": "https://github.com/preper/scratch-gui-demo#readme",
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.1.0",
+    "vite": "^2.0.0-beta.70"
+  }
+}
